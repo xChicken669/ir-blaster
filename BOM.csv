@@ -1,18 +1,16 @@
-Reference,Part,Qty,Specifications / Notes,Supplier,Supplier Part Number,Function
-U1,ESP32-C3 SuperMini,1,"ESP32-C3 development board; verify exact board pinout and onboard regulator before wiring",Laskakit / existing board,TBD,Main controller
-OLED1,128x64 OLED display I2C,1,"Confirm supply voltage; SDA/SCL pins and I2C address (often 0x3C or 0x3D)",Existing / TBD,TBD,Display
-IR1,TSOP4838 IR receiver,1,"38 kHz demodulating IR receiver; verify package pinout and supply requirements",TBD,TBD,IR input
-D1,IR LED,1,"Infrared LED around 940 nm; select current rating and forward voltage",TBD,TBD,IR output
-Q1,NPN transistor or logic-level MOSFET,1,"IR LED driver; select based on LED pulse current and GPIO limits",TBD,TBD,IR output driver
-R1,IR LED series resistor,1,"Calculate based on LED forward voltage; supply voltage and target pulse current",TBD,TBD,IR output
-R2,Base or gate resistor,1,"Required value depends on selected transistor or MOSFET",TBD,TBD,IR output driver
-R3,Base or gate pull-down resistor,1,"Optional; keeps IR LED off during boot; depends on driver design",TBD,TBD,IR output driver
-SW1-SW3,Momentary push buttons,3,"User input buttons; adjust quantity to final design",TBD,TBD,Controls
-BAT1,Li-ion battery nominal 3.7 V,1,"Capacity and connector TBD; verify protection and discharge-current rating",Laskakit / TBD,TBD,Power
-CHG1,TP4056 protected charging module,1,"USB charging module with battery protection; verify charge current suits battery",Laskakit / TBD,TBD,Power
-J1,Battery connector and wires,1,"Match connector pitch and polarity to battery and charging module",TBD,TBD,Power
-C1,100 nF decoupling capacitor,1,"Place near receiver or IC supply pins if not already included on modules",TBD,TBD,Power / noise
-C2,10-100 uF bulk capacitor,1,"Near IR LED driver supply as needed; select voltage rating",TBD,TBD,Power / IR output
-J2,USB-C cable or charging access,1,"Use compatible cable for charging module",TBD,TBD,Power
-PCB1,PCB or prototyping board,1,"Optional; omit if using perfboard or module wiring",TBD,TBD,Mechanical
-MECH1,Enclosure and fasteners,1,"3D-printed enclosure and hardware; quantities depend on final design",TBD,TBD,Mechanical
+Designator,Qty,Component,Recommended part or specification,Package,Assembly,Notes
+U1,1,ESP32-C3 SuperMini,ESP32-C3 SuperMini development board,Module,Main PCB,Main controller with onboard 3.3V regulator
+U2,1,IR receiver,Vishay TSOP38438,Through-hole 3-pin,Main PCB,38kHz receiver; power from 3V3
+U3,1,OLED display,SSD1306 128x64 0.96-inch I2C OLED,4-pin module,Main PCB,Power from 3V3
+Q1,1,NPN transistor,BC337,TO-92 through-hole,Main PCB,IR LED driver; verify pinout for selected manufacturer
+D1,1,IR LED,Vishay TSAL6100 940nm,5mm through-hole,Main PCB,High-intensity infrared emitter
+R1,1,IR LED current-limiting resistor,150 ohm 0.25W,Through-hole or matching PCB footprint,Main PCB,Series resistor for D1
+R2,1,Transistor base resistor,1k ohm 0.25W,Through-hole or matching PCB footprint,Main PCB,ESP32 GPIO to BC337 base
+SW1-SW4,4,Tactile push button,KLS TS6601-5.0-100,6x6mm through-hole,Main PCB,Navigation buttons
+C1,1,Ceramic decoupling capacitor,100nF X7R rated 10V or higher,Match selected PCB footprint,Main PCB,Place close to TSOP38438 supply pins
+C2,1,Ceramic capacitor,4.7uF X7R rated 6.3V or higher,Match selected PCB footprint,Main PCB,Place close to IR receiver supply
+C3,1,Supply capacitor,10uF rated 6.3V or higher,Match selected PCB footprint,Main PCB,Near the board battery input to help with current transients
+J1,1,Power input connector,2-pin connector matching charger output wiring,Through-hole or SMD,Main PCB,Connect to protected battery output through power switch
+SW5,1,Main power switch,SPST slide switch rated for at least 1A DC at low voltage,PCB-mount or wired,Main PCB,Switch battery positive to turn device off
+B1,1,Li-Po battery,Akyga AKY0185 3.7V 550mAh,2-wire battery,External,Maximum discharge current 550mA at 1C
+CHG1,1,USB-C Li-Po charger with protection,Single-cell charger compatible with 3.7V Li-Po,External module,External,Use a charge current allowed by the battery specification; do not assume a default 1A module is suitable
