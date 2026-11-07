@@ -1,10 +1,5 @@
 # ir-blaster
-IR blaster that runs on an esp32 c3 supermini It uses 4 push buttons, an IR led and an IR receiver.
-It uses these libs:
-  - IRremote
-  - adafruit ssd1306
-  - adafruit GFX
-  - Wire
+IR blaster that runs on an esp32 c3 supermini It uses 4 push buttons, an IR led and an IR receiver
 ## why have I made this project??
 I have always wanted to make an IR blaster from scratch but I didnt have the time and money to do so, now I am able to make it thanks to hackclub :).
 ## screenshots
@@ -28,7 +23,7 @@ I have always wanted to make an IR blaster from scratch but I didnt have the tim
 | PCB                            | 5   | https://jlcpcb.com                                                                 | 226.3043478 | 10.41        |
 | Filament                       | 12g | Supplied by myself                                                                 | 4.8         | 0.2208       |
 
-## AI
+##AI
 I used ai for a little bit of research for coding and for finding correct components
 
 
