@@ -1,4 +1,4 @@
-# <img src="">
+# <img src="https://github.com/xChicken669/ir-blaster/blob/main/IR%20blaster/IRblaster.svg">
 IR blaster that runs on an esp32 c3 supermini It uses 4 push buttons, an IR led and an IR receiver
 ## why have I made this project??
 I have always wanted to make an IR blaster from scratch but I didnt have the time and money to do so, now I am able to make it thanks to hackclub :).
