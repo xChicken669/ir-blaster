@@ -1,4 +1,4 @@
-# <img src="https://github.com/xChicken669/ir-blaster/blob/main/IR%20blaster/IRblaster.svg">
+# <img src="https://github.com/xChicken669/ir-blaster/blob/main/IRblaster.svg">
 IR blaster that runs on an esp32 c3 supermini It uses 4 push buttons, an IR led and an IR receiver
 ## why have I made this project??
 I have always wanted to make an IR blaster from scratch but I didnt have the time and money to do so, now I am able to make it thanks to hackclub :).
@@ -12,8 +12,8 @@ I have always wanted to make an IR blaster from scratch but I didnt have the tim
 |--------------------------------|-----|------------------------------------------------------------------------------------|-------------|--------------|
 |  VISHAY TSAL6100 IR LED        | 1   | https://www.gme.cz/v/1486297/vishay-tsal6100-infracervena-led-5mm                  | 5           | 0.23         |
 | DIOTEC BC337                   | 1   | https://www.gme.cz/v/1487096/diotec-bc337-40bk-bipolarni-tranzistor                | 0.85        | 0.0391       |
-| Resistor 150?                  | 1   | https://www.gme.cz/v/1494168/gym-cym-rm-150r-06w-1-0207-metalizovany-rezistor      | 4           | 0.184        |
-| Resistor 1000?                 | 1   | https://www.gme.cz/v/1486228/gym-cym-rm-1k-06w-1-0207-metalizovany-rezistor        | 4           | 0.184        |
+| Resistor 150ohms               | 1   | https://www.gme.cz/v/1494168/gym-cym-rm-150r-06w-1-0207-metalizovany-rezistor      | 4           | 0.184        |
+| Resistor 1000ohms              | 1   | https://www.gme.cz/v/1486228/gym-cym-rm-1k-06w-1-0207-metalizovany-rezistor        | 4           | 0.184        |
 | Esp32 C3 Supermini             | 1   | https://www.laskakit.cz/esp32-c3-super-mini-wifi-bluetooth-modul/                  | 148         | 6.808        |
 | VISHAY TSOP3848 IR RECEIVER    | 1   | https://www.gme.cz/v/1489884/vishay-tsop4838-ir-prijimac                           | 18          | 0.828        |
 | KLS TS6601-5.0-100 push button | 4   | https://www.gme.cz/v/1500825/kls-ts6601-50-100-mikrospinac                         | 2.8         | 0.1288       |
