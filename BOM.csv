@@ -1,13 +1,15 @@
-Component,Qty,Link,Price - CZK,Price  - USD
- VISHAY TSAL6100 IR LED,1,https://www.gme.cz/v/1486297/vishay-tsal6100-infracervena-led-5mm,5,0.23
-DIOTEC BC337,1,https://www.gme.cz/v/1487096/diotec-bc337-40bk-bipolarni-tranzistor,0.85,0.0391
-Resistor 150?,1,https://www.gme.cz/v/1494168/gym-cym-rm-150r-06w-1-0207-metalizovany-rezistor,4,0.184
-Resistor 1000?,1,https://www.gme.cz/v/1486228/gym-cym-rm-1k-06w-1-0207-metalizovany-rezistor,4,0.184
-Esp32 C3 Supermini,1,https://www.laskakit.cz/esp32-c3-super-mini-wifi-bluetooth-modul/,148,6.808
-VISHAY TSOP3848 IR RECEIVER,1,https://www.gme.cz/v/1489884/vishay-tsop4838-ir-prijimac,18,0.828
-KLS TS6601-5.0-100 push button,4,https://www.gme.cz/v/1500825/kls-ts6601-50-100-mikrospinac,2.8,0.1288
-"0.96"" I2C OLED display 128x64",1,https://www.gme.cz/v/1509095/oled-displej-096-128x64-i2c-bily,100,4.6
-LiPol Battery,1,https://www.laskakit.cz/geb-lipol-baterie-302040-200mah-3-7v-jst-sh-2-0/#ratingTab,70,3.22
-Tp4056 Battery charging module,1,https://www.laskakit.cz/nabijecka-li-ion-clanku-tp4056-s-ochranou-usb-c/,18,0.828
-PCB,5,https://jlcpcb.com,226.3043478,10.41
-Filament,12g,Supplied by myself,4.8,0.2208
+Part,Type,Quantity,Unit price (USD),Line total (USD),Link,Vendor,Funding,Notes,Price - CZK
+VISHAY TSAL6100 IR LED,Part,1,0.23,0.23,https://www.gme.cz/v/1486297/vishay-tsal6100-infracervena-led-5mm,,Grant,,5
+DIOTEC BC337,Part,1,0.0391,0.0391,https://www.gme.cz/v/1487096/diotec-bc337-40bk-bipolarni-tranzistor,,Grant,,0.85
+Resistor 150?,Part,1,0.184,0.184,https://www.gme.cz/v/1494168/gym-cym-rm-150r-06w-1-0207-metalizovany-rezistor,,Already own,,4
+Resistor 1000?,Part,1,0.184,0.184,https://www.gme.cz/v/1486228/gym-cym-rm-1k-06w-1-0207-metalizovany-rezistor,,Already own,,4
+Esp32 C3 Supermini,Part,1,6.808,6.808,https://www.laskakit.cz/esp32-c3-super-mini-wifi-bluetooth-modul/,,Already own,,148
+VISHAY TSOP3848 IR RECEIVER,Part,1,0.828,0.828,https://www.gme.cz/v/1489884/vishay-tsop4838-ir-prijimac,,Grant,,18
+KLS TS6601-5.0-100 push button,Part,4,0.1288,0.5152,https://www.gme.cz/v/1500825/kls-ts6601-50-100-mikrospinac,,Grant,,2.8
+"0.96"" I2C OLED display 128x64",Part,1,4.60,4.60,https://www.gme.cz/v/1509095/oled-displej-096-128x64-i2c-bily,,Grant,,100
+LiPol Battery,Part,1,3.22,3.22,https://www.laskakit.cz/geb-lipol-baterie-302040-200mah-3-7v-jst-sh-2-0/#ratingTab,,Grant,,70
+Tp4056 Battery charging module,Part,1,0.828,0.828,https://www.laskakit.cz/nabijecka-li-ion-clanku-tp4056-s-ochranou-usb-c/,,Grant,,18
+PCB,PCB,5,2.10,10.50,https://jlcpcb.com,,Grant,,226.3043478
+Filament,3D printed,1,0.2208,0.2208,,,Already own,Supplied by myself,4.8
+Total,,,,28.1571,,,,,
+Grant total,,,,20.7603,,,,,
