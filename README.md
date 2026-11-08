@@ -9,7 +9,10 @@ Arduino IDE for firmware
 ## screenshots
 <img width="522" height="625" alt="Screenshot 2026-10-18 214150" src="https://github.com/user-attachments/assets/6ee28039-93b5-468e-81eb-caeb2e276b7e" />
 <img width="877" height="821" alt="Screenshot 2026-10-18 214205" src="https://github.com/user-attachments/assets/b601f223-2bf8-40c7-9604-669b344fc443" />
-<img width="626" height="447" alt="Screenshot 2026-10-18 214214" src="https://github.com/user-attachments/assets/c681d3d0-4757-4d29-bc81-847308d1bdcd" />
+<img width="696" height="501" alt="Screenshot 2026-10-28 163519" src="https://github.com/user-attachments/assets/b97da7a7-1967-4a89-8d66-e04966873a85" />
+<img width="710" height="767" alt="Screenshot 2026-10-18 133539" src="https://github.com/user-attachments/assets/72392718-4252-47d0-87ad-a70971e965c1" />
+
+
 
 ## BOM
 | Component                      | Qty | Link                                                                               | Price - CZK | Price  - USD |
