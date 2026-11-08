@@ -3,13 +3,14 @@ IR blaster that runs on an esp32 c3 supermini It uses 4 push buttons, an IR led 
 ## why have I made this project??
 I have always wanted to make an IR blaster from scratch but I didnt have the time and money to do so, now I am able to make it thanks to hackclub :).
 ## how did I make this project
-Autodesk Fusion 360 for CAD
-Kicad for pcb design
-Arduino IDE for firmware
+- Autodesk Fusion 360 for CAD
+- Kicad for pcb design
+- Arduino IDE for firmware
 ## screenshots
 <img width="522" height="625" alt="Screenshot 2026-10-18 214150" src="https://github.com/user-attachments/assets/6ee28039-93b5-468e-81eb-caeb2e276b7e" />
 <img width="877" height="821" alt="Screenshot 2026-10-18 214205" src="https://github.com/user-attachments/assets/b601f223-2bf8-40c7-9604-669b344fc443" />
 <img width="696" height="501" alt="Screenshot 2026-10-28 163519" src="https://github.com/user-attachments/assets/b97da7a7-1967-4a89-8d66-e04966873a85" />
+also it uses two m2 screws for assembly and two m2 nuts.
 <img width="710" height="767" alt="Screenshot 2026-10-18 133539" src="https://github.com/user-attachments/assets/72392718-4252-47d0-87ad-a70971e965c1" />
 
 
