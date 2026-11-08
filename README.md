@@ -23,6 +23,7 @@ I have always wanted to make an IR blaster from scratch but I didnt have the tim
 | PCB                            | 5   | https://jlcpcb.com                                                                 | 226.3043478 | 10.41        |
 | Filament                       | 12g | Supplied by myself                                                                 | 4.8         | 0.2208       |
 
+total = 601.75czk / 27.56
 ## AI
 I used ai for a little bit of research for coding and for finding correct components
 
